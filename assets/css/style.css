@@ -1211,19 +1211,29 @@ Featured section style
 .featured_img a{
     display: none;
 }
-.featured_slider{
-    width: 100%;  
-    height:250px;
-    margin: 20px auto;    
+.featured_slider{ 
     text-align: center;
+    
+    animation: cambio 30s infinite;
+    animation-timing-function: ease;
 }
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+  
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+  
+  }
+
 .featured_img img{
     width:100%;
     height: 100%;
 }
-.featured_slider div{
-    margin-right: 5px;
-}
+
 .slick-slide{
     opacity: .6;
 }
@@ -1737,3 +1747,106 @@ Footer Section style
     text-decoration: none;
 
 }
+
+.social-btn-container {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    bottom: 30%;
+  }
+  
+  .social-btn-container-sub {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    top: 15%;
+  }
+  
+  .social-btn-box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 1px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .social-btn-box a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 70px;
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  .social-btn-box,
+  .social-btn-box a {
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+  }
+  
+  .social-btn-box:hover {
+    border-color: transparent;
+  }
+  
+  .social-btn-box .facebook-btn:hover {
+    background: #3B5998;
+    color: #fff;
+  }
+  
+  .social-btn-box .twitter-btn:hover {
+    background: #55ACEE;
+    color: #fff;
+  }
+  
+  .social-btn-box .linkedin-btn:hover {
+    background: #0077b5;
+    color: #fff;
+  }
+  
+  .social-btn-box .google-plus-btn:hover {
+    background: #db514f;
+    color: #fff;
+  }
+  
+  .social-btn-box .youtube-btn:hover {
+    background: #cc181e;
+    color: #fff;
+  }
+  
+  .social-btn-box .github-btn:hover {
+    background: #2b2e30;
+    color: #fff;
+  }
+  
+  .social-btn-box .a:hover {
+    background: #3498db;
+    color: #fff;
+  }
