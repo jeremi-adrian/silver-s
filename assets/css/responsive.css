@@ -75,7 +75,14 @@ Author URI: http://www.xpeedstudio.com
     .main_testimonial .testimonial_slid .slick-arrow.nextprevright {
         top: -150px;
     }
-
+    h1 {
+        display: none;
+    }
+    .navbar-brand {
+        width: 20%;
+        height: auto;
+        
+    }
 
 }
 
@@ -89,6 +96,11 @@ Author URI: http://www.xpeedstudio.com
     }
     .testimonial_slid .slick-arrow {
         display: none;
+    }
+    .navbar-brand {
+        width: 30%;
+        height: auto;
+        
     }
 
 }
