@@ -108,6 +108,12 @@ Author URI: http://www.xpeedstudio.com
     .store {
         display: block;
     }
+    .main_home{
+        overflow: hidden;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        position: relative;
+        z-index: 1;
 
 }
 
