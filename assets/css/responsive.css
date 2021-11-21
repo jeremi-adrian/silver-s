@@ -21,7 +21,7 @@ Author URI: http://www.xpeedstudio.com
 
 
 /* Portrait tablets and small desktops */
-@media (max-width: 991px) {
+@media (max-width: 1991px) {
 
     .sm-text-center{
         text-align: center !important;
@@ -40,6 +40,9 @@ Author URI: http://www.xpeedstudio.com
     }
     .sm-m-top-50{
         margin-top:50px;
+    }
+    .store {
+        display: none;
     }
 
 
@@ -101,6 +104,9 @@ Author URI: http://www.xpeedstudio.com
         width: 30%;
         height: auto;
         
+    }
+    .store {
+        display: block;
     }
 
 }

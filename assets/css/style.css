@@ -1212,22 +1212,8 @@ Featured section style
     display: none;
 }
 .featured_slider{ 
-    text-align: center;
-    
-    animation: cambio 30s infinite;
-    animation-timing-function: ease;
+    text-align: center;   
 }
-@keyframes cambio {
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
-    
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-  
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-  
-  }
 
 .featured_img img{
     width:100%;
@@ -1822,7 +1808,7 @@ Footer Section style
   }
   
   .social-btn-box .twitter-btn:hover {
-    background: #55ACEE;
+    background: #43ce81;
     color: #fff;
   }
   
@@ -1856,7 +1842,6 @@ Footer Section style
       font: 0 4em/1 "Oswald", sans-serif;
   	letter-spacing: 0;
   	padding: .25em 0 .325em;
-	  display: block;
 	  margin: 0 auto;
   	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
@@ -1876,4 +1861,8 @@ Footer Section style
 	  -webkit-transform: translate3d(0,0,0);
 	  -webkit-backface-visibility: hidden;
 
+  }
+
+  .fa {
+      font-size: 140%;
   }
