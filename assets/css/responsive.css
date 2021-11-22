@@ -86,7 +86,23 @@ Author URI: http://www.xpeedstudio.com
         height: auto;
         
     }
-
+    .fa {
+        font-size: 140%;
+        padding: 9px;
+    }
+    .menu3 {
+        display: none;
+    }
+    
+    .scrollup:hover {
+        background: #ff6863;
+        opacity: 100;
+    }
+    
+    .scrollup i {
+        margin-top: -16px;
+        margin-left: -15px;    
+    }
 }
 
 
@@ -114,7 +130,7 @@ Author URI: http://www.xpeedstudio.com
         padding-bottom: 0px;
         position: relative;
         z-index: 1;
-
+    }
 }
 
 

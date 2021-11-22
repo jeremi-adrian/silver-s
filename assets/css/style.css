@@ -352,12 +352,12 @@ ul{
 /*
 Separator
 */
-.separator_left{
+/*.separator_left{
     width:85px;
     height:2px;
     margin:20px 0px;
     background: #ff6863;
-}
+}*/
 .separator_auto{
     width:85px;
     height:2px;
@@ -1838,7 +1838,7 @@ Footer Section style
   }
 
   .titulo {
-      float: right;
+      float: left;
       font: 0 4em/1 "Oswald", sans-serif;
   	letter-spacing: 0;
   	padding: .25em 0 .325em;
@@ -1891,4 +1891,25 @@ Footer Section style
 
   .fa {
       font-size: 140%;
+      padding: 0px;
+      margin-right: 2px;
+  }
+
+  .store {
+    margin: 26%;
+    font-size: 400%;
+    color: white;
+    letter-spacing: -2px;
+    border: 6px solid rgba(56, 108, 168, 0.562);
+    margin-top: 10rem;
+   
+  }
+
+  .menu2 {
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+  }
+
+  .title {
+      font-size: 20px;
   }
