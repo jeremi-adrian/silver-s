@@ -44,9 +44,6 @@ Author URI: http://www.xpeedstudio.com
     .store {
         display: none;
     }
-
-
-
 }
 
 
@@ -103,6 +100,30 @@ Author URI: http://www.xpeedstudio.com
         margin-top: -16px;
         margin-left: -15px;    
     }
+    .store {
+        display: block;
+    }
+    .main_home{
+        overflow: hidden;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        position: relative;
+        z-index: 1;
+    }
+    .store {
+        display: block;
+    }
+    .cate{
+        text-align: center;
+        color: #eeeeee;
+        font-size: 50px;
+    }
+    .electronicajpg {
+        height: 300px;
+        width: auto;
+    }
+    .main_home-electronica{
+        padding-top: 185px;
 }
 
 
@@ -120,16 +141,6 @@ Author URI: http://www.xpeedstudio.com
         width: 30%;
         height: auto;
         
-    }
-    .store {
-        display: block;
-    }
-    .main_home{
-        overflow: hidden;
-        padding-top: 50px;
-        padding-bottom: 0px;
-        position: relative;
-        z-index: 1;
     }
 }
 
