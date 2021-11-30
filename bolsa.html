@@ -1,10 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-
-    <!--Designerd by: http://bootstrapthemes.co-->
+ <html class="no-js" lang="en"> 
     <head>
         <meta charset="utf-8">
         <title>Silver's </title>
@@ -29,11 +24,9 @@
 
 
         <!--For Plugins external css-->
-        <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
 
         <!--Theme custom css -->
         <link rel="stylesheet" href="assets/css/style.css">
-        <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
 
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -43,22 +36,6 @@
 
     <body data-spy="scroll" data-target=".navbar-collapse">
 
-
-        <!-- Preloader -->
-        <div id="loading">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <div class="object" id="object_one"></div>
-                    <div class="object" id="object_two"></div>
-                    <div class="object" id="object_three"></div>
-                    <div class="object" id="object_four"></div>
-                </div>
-            </div>
-        </div><!--End off Preloader -->
-
-
-       <!-- <div class="culmn">
-            <!--Home page style-->
 
 
             <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
@@ -80,43 +57,21 @@
                         <ul cols="8">
                             <li style="font-size: 17px; margin-top: -1px;"><a href="index.html"><i class="fa fa-home"></i></a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+                                <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" >
                                     <i class="fa fa-shopping-bag"></i>
-                                    <span class="badge"></span>
-                                </a>
+                                    <span class="badge">3</span>
+                                </a>-->
                                 <ul class="dropdown-menu cart-list">
 
                                     <!---- More List ---->
-                                    <div lass="two columns u-pull-right">
-                                        <ul>
-                                         <div id="carrito">
-                                                 <table id="lista-carrito" class="table table-dark table-hover">
-                                                     <thead>
-                                                          <tr class="text-primary">
-                                                            <th scope="col">Imagen</th>
-                                                            <th scope="col">Productos</th>
-                                                            <th scope="col">Precio</th>
-                                                            <th scope="col"></th>
-                                                          </tr>
-                                                        </thead>
-                                                        <tbody> </tbody>
-                                                    </table>
-                                                    <li>
-                                                        <a href="#" id="vaciar-carrito" class="btn btn-primary">Vaciar bolsa</a>
-                                                    </li>
-                                                    <br>
-                                                    <li>
-                                                        <a href="#" class="btn btn-primary" id="procesar-pedido">Ver bolsa</a>
-                                                    </li>
-                                             </div>
-                                        </ul>
-                                    </div>
+
                                 </ul>
                             </li>
-                            <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                           <!-- <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>-->
                              <li class="side-menu" style="margin-top: 1px;"><a href="#"><i class="fa fa-bars"></i></a></li>
                              </ul>
                     </div>        
+ 
                         <a class="navbar-brand">
 
                             <img src="assets/images/SILVER'S .png"
@@ -137,9 +92,6 @@
                             <!--<li><a href="#about">Uso</a></li>-->                    
                             <li><a href="#service"></a></li>                    
                             <li><a href="#portfolio"></a></li>                    
-                            <!--<li><a href="#pricing">Pricing</a></li>                    
-                            <li><a href="#blog">Blog</a></li>                    
-                            <li><a href="#contact">Contact</a></li>-->  
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>  
@@ -171,7 +123,7 @@
                     <div class="row">
                         <div class="main_home-electronica">
                             <div>
-                                <p class="cate">Electrónica</p>
+                                <p class="cate">Bolsa de compra</p>
                             </div>
                         </div>
                     </div><!--End off row-->
@@ -180,54 +132,84 @@
 
 
             <!--About Sections-->
-            <section  class="about roomy-70">
-                <div class="container" id="lista-productos">
-            
-                    <div class="card-deck mb-3 text-center">
-                        
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-header">
-                                <h4 class="my-0 font-weight-bold">HP PAVILION</h4>
+            <section id="about" class="about roomy-70">
+                <div class="container">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <form id="procesar-pago" action="#">
+                                        <div class="form-group row">
+                                            <label for="cliente" class="col-12 col-md-2 col-form-label h2">Cliente :</label>
+                                            <div class="col-12 col-md-10">
+                                                <input type="text" class="form-control" id="cliente"
+                                                    placeholder="Ingresa nombre cliente" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="email" class="col-12 col-md-2 col-form-label h2">Correo :</label>
+                                            <div class="col-12 col-md-10">
+                                                <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo" required>
+                                            </div>
+                                        </div>
+                
+                                        <div id="carrito">
+                                            <table id="lista-compra" class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">Imagen</th>
+                                                        <th scope="col">Nombre</th>
+                                                        <th scope="col">Precio</th>
+                                                        <th scope="col">Cantidad</th>
+                                                        <th scope="col">Sub Total</th>
+                                                        <th scope="col">Eliminar</th>
+                                                    </tr>
+                
+                                                </thead>
+                                                <tbody>
+                
+                                                </tbody>
+                                                <tr>
+                                                    <th colspan="4" scope="col" class="text-right">SUB TOTAL :</th>
+                                                    <th scope="col">
+                                                        <p id="subtotal"></p>
+                                                    </th>
+                                                    <!-- <th scope="col"></th> -->
+                                                </tr>
+                                                <tr>
+                                                    <th colspan="4" scope="col" class="text-right">TOTAL :</th>
+                                                    <th scope="col">
+                                                        <p id="total"></p>
+                                                    </th>
+                                                    <!-- <th scope="col"></th> -->
+                                                </tr>
+                
+                                            </table>
+                                        </div>
+                
+                                        <div class="row justify-content-center" id="loaders">
+                                            <img id="cargando" src="assets/images/Portfolio/cargando.gif" width="220">
+                                        </div>
+                
+                                        <div class="row justify-content-between">
+                                            <div class="col-xs-12 col-md-4">
+                                                <a href="" class="btn btn-success btn-block" id="procesar-compra">Realizar compra</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                
+                                </div>
+                
+                
                             </div>
-                            <div class="card-body">
-                                <img src="assets/images/fprojects/1.jpg" style="width: 110px;height: 110px;" 
-                                class="card-img-top">
-                                <h1 class="card-title pricing-card-title precio"><span class="">5000</span></h1>
-        
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li></li>
-                                    <li>8 GB RAM</li>
-                                    <li>COLOR PLATEADO</li>
-                                    <li>256 GB DISCO SSD</li>
-                                </ul>
-                                <a href="" class="btn btn agregar-carrito" data-id="1">Comprar</a>
-                            </div>
+                
                         </div>
-        
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-header">
-                                <h4 class="my-0 font-weight-bold">ACER </h4>
-                            </div>
-                            <div class="card-body">
-                                <img src="assets/images/fprojects/2.jpg" style="width: 110px;height: 110px;"
-                                class="card-img-top">
-                                <h1 class="card-title pricing-card-title precio"> <span class="">3000</span></h1>
-        
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li></li>
-                                    <li>16 GB RAM</li>
-                                    <li>COLOR NEGRO</li>
-                                    <li>1 TB DD</li>
-                                </ul>
-                                <a href="" class="btn btn agregar-carrito" data-id="2">Comprar</a>
-                            </div>
-                        </div>
-                </div>
+                                        
+                 </div>
+                                 <!--End off row-->
                 </div><!--End off container -->
             </section> <!--End off About section -->
 
-
-            
 
 
             <!--Contact Us Section-->
@@ -257,8 +239,6 @@
             </section><!--End off Contact Section-->
 
 
-            <!-- End off scroll up -->
-
 
             <footer id="footer" class="footer bg-black">
                 <div class="container">
@@ -276,19 +256,17 @@
             
             <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
             <script src="assets/js/vendor/bootstrap.min.js"></script>
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 
             <script src="assets/js/jquery.magnific-popup.js"></script>
             <script src="assets/js/jquery.easing.1.3.js"></script>
             <script src="assets/js/slick.min.js"></script>
             <script src="assets/js/jquery.collapse.js"></script>
             <script src="assets/js/bootsnav.js"></script>
-            <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-            <script src="assets/js/carrito.js"></script>
-            <script src="assets/js/pedido.js"></script>
-
-
-            <!-- paradise slider js -->
             <script src="assets/js/plugins.js"></script>
             <script src="assets/js/main.js"></script>
+            <script src="assets/js/carrito.js"></script>
+            <script src="assets/js/compra.js"></script>
     </body>
 </html>

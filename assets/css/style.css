@@ -417,6 +417,13 @@ Button
     border-color: #ff6863;
     padding: 1rem 2rem;
 }
+.btn-primary2{
+    color: #fff;
+    background-color: #ff6863;
+    border:1px solid;
+    border-color: #ff6863;
+    
+}
 .btn-primary:hover{
     background-color: #eee;
     border-color: #eee;
