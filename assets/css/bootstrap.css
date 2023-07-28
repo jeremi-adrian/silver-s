@@ -489,7 +489,7 @@ th {
 .glyphicon-edit:before {
   content: "\e065";
 }
-.glyphicon-share:before {
+.glyphicon-share: {
   content: "\e066";
 }
 .glyphicon-check:before {

@@ -1221,11 +1221,11 @@ Featured section style
     right:43.5%;
     top:35%;
     color: #000;
-    background-color: #fff;
+    background-color: #ffffffcc;
     border-radius: 50%;
     font-size:3rem;
     z-index: 2;
-    cursor: pointer;
+    
 }
 .slick-center .featured_img a{
     position: absolute;
@@ -1238,15 +1238,14 @@ Featured section style
     z-index: 3;
 }
 .featured_img a{
-    display: none;
+   
 }
 .featured_slider{ 
     text-align: center;   
 }
 
 .featured_img img{
-    width:100%;
-    height: 100%;
+    
 }
 
 .slick-slide{
