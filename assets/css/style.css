@@ -1237,16 +1237,6 @@ Featured section style
     height: 50px;
     z-index: 3;
 }
-.featured_img a{
-   
-}
-.featured_slider{ 
-    text-align: center;   
-}
-
-.featured_img img{
-    
-}
 
 .slick-slide{
     opacity: .6;
